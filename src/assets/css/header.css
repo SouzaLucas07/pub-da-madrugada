@@ -52,6 +52,4 @@
 
 .header button:hover {
     background-color: #C99648;
-    width: 220px;
-    transition: .3s;
 }
