@@ -22,7 +22,15 @@
     height: 60px;
     width: 60px;
     margin-bottom: 10px; /* Adiciona espaço entre a imagem e o texto */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
 }
+
+.btn2 .itens img:hover {
+    transform: translateY(-15px); /* Move a imagem 30px para cima */
+    transition: transform 0.3s ease-in-out; /* Mantém a transição suave */
+}
+
+
 
 .btn2 .itens span {
     display: flex;
