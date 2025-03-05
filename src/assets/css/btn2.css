@@ -1,0 +1,43 @@
+.btn2 {
+    background-image: url(../img/Concrete-wall-texture-9S6LBJR.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+}
+
+.btn2 .itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens na horizontal */
+    justify-content: center; /* Garante que os itens fiquem centralizados verticalmente */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+}
+
+.btn2 .itens img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.btn2 .itens span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    margin: 5px 20px;
+    font-size: 24px;
+}
+
+.btn2 .itens p {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px; /* Adiciona espaço entre o texto e a imagem */
+}
