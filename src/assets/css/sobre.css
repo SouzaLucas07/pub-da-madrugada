@@ -1,31 +1,39 @@
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    padding: 50px 200px;
+    padding: 50px 20px;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     background-color: #000;
+    margin: 0 auto;
 }
 .sobre{
-    margin: 15px 50px;
+    width: 400px;
+    margin: 15px 30px;
 }
 .sobre h2{
     color: #B5843B;
     margin-left: 50px;
     text-transform: uppercase;
     font-weight: normal;
+
 }
 .sobre h1{
-    font-size: 80px;
+    font-size: 70px;
+    width: 430px;
     margin: 0 ;
     font-weight: normal;
+    text-transform: uppercase;
 }
 .sobre p{
     word-spacing: 2.5px;
+    font-weight: normal;
     font-size: 18px;
+    width: 500px;
 }
 .sobre button {
+    margin-top: 25px;
     width: 150px;
     height: 50px;
     border: none;
@@ -45,4 +53,7 @@
     background-color: #C99648;
     color: #FFF;
     width: 160px;
+}
+.container img{
+    height: 600px;
 }

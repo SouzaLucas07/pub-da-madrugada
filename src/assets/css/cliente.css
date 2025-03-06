@@ -1,0 +1,48 @@
+.cliente{
+    background-image: url(../img/Foto-6-O-que-os-clientes-dizem-scaled.jpg);
+    background-color: #000;
+    height: 850px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cliente h2{
+    font-size: 75px;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 50px 300px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+}
+.cliente .cliente-info{
+    margin: 0 auto;
+    background-color: #B5843B;
+    width: 400px;
+    height: 400px;
+    margin: 0 300px;
+    padding: 30px;
+    border-radius: 50px 0;
+}
+.cliente .cliente-info img{
+    width: 50px;
+    
+}
+.cliente .cliente-info p{
+    font-size: 20px;
+    padding: 0 20px 5px 0;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+.cliente .cliente-info h3{
+    margin: 0;
+    font-size: 20px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+}
+.cliente .cliente-info span{
+    font-size: 20px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}

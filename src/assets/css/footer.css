@@ -1,0 +1,99 @@
+.footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .left img{
+    width: 300px;
+}
+.footer .left p{
+    font-family: "Roboto", sans-serif;
+    width: 350px;
+    font-weight: 400;
+    color: #FFF;
+}
+.footer .left .links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .left .links a {
+    height: 40px;
+    width: 40px;
+    margin: 10px 15px 10px 0px;
+    background-color: #B5843B;
+    display: flex; /* Ativa flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border-radius: 10px 0; /* Opcional: deixa os botões circulares */
+}
+.footer .left .links a:hover{
+    transform: translateY(-15px); /* Move a imagem 30px para cima */
+    transition: transform 0.3s ease-in-out;
+}
+.footer .left a img {
+    width: 20px;
+    height: 20px;
+}
+.footer .center ul{
+    list-style: none;
+}
+.footer .center ul li{
+    color: #FFF;
+    margin: 15px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer .center ul li:hover{
+    transform: translatex(15px); /* Move a imagem 30px para cima */
+    transition: transform 0.3s ease-in-out;
+    color: #B5843B;
+}
+.footer .right h2{
+   color: #FFF;
+   font-family: "Roboto", sans-serif;
+   font-size: 36px;
+}
+.footer .right p{
+    color: #FFF;
+    width: 500px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.footer .right button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #B5843B;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 25px 0 ;
+    transition: background 0.3s ease-in-out;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer .right button:hover {
+    background-color: #C99648;
+    transform: translatex(15px); /* Move a imagem 30px para cima */
+    transition: transform 0.3s ease-in-out;
+}
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Define a espessura da linha */
+    background-color: #FFF; /* Cor da linha */
+    margin: 25px auto; /* Espaço acima e abaixo */
+    width: 80%; /* Faz a linha ocupar toda a largura disponível */
+}
+.copyright{
+    padding: 0 100px;
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}

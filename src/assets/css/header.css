@@ -6,8 +6,6 @@
     justify-content: space-between;
     align-items: center; /* Alinha os itens verticalmente */
     flex-wrap: wrap; /* Evita que os itens quebrem feio em telas pequenas */
-    
-    
 }
 .header img{
     height: 80px;
