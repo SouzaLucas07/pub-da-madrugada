@@ -10,7 +10,7 @@
     font-size: 75px;
     margin: 0;
     text-transform: uppercase;
-    padding: 50px 300px;
+    padding: 50px;
     color: #FFF;
     font-family: "Roboto", sans-serif;
 }
@@ -19,7 +19,7 @@
     background-color: #B5843B;
     width: 400px;
     height: 400px;
-    margin: 0 300px;
+    margin: 0 50px;
     padding: 30px;
     border-radius: 50px 0;
 }

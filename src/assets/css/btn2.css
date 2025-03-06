@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin: 0 auto;
     height: 400px;
     display: flex;
     justify-content: space-evenly; /* Centraliza na horizontal */

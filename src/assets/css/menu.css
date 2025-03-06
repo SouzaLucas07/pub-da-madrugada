@@ -1,21 +1,27 @@
-.menu  {
+.menu {
     position: relative;
     display: flex;
     justify-content: left;
     flex-direction: row;
-    padding: 100px 250px;
+    max-width: 1400px;
     width: 100%;
-    height: 1000px;
+    padding: 50px 20px;
+    height: 1100px;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     background-color: #000;
+    margin: 0 auto; /* Centraliza o menu */
+    box-sizing: border-box; /* Garante que padding não ultrapasse max-width */
 }
-.menu .info-menu h2{
+
+.menu .info-menu h2 {
     color: #FFF;
     font-size: 60px;
+    left: 150px;
     width: 300px;
     text-transform: uppercase;
 }
+
 .menu .info-menu button {
     width: 200px;
     height: 50px;
@@ -27,34 +33,36 @@
     border-radius: 25px 0;
     transition: background 0.3s ease-in-out, width 0.3s ease-in-out;
     font-family: "Roboto", sans-serif;
-    position: relative; /* Para não ser afetado pelo ::before */
+    position: relative;
     z-index: 1;
     text-transform: uppercase;
 }
 
 .menu .info-menu button:hover {
-    transform: translateY(-15px); /* Move a imagem 30px para cima */
+    transform: translateY(-15px);
     transition: transform 0.3s ease-in-out;
 }
-.info-img{
+
+.info-img {
     position: absolute;
-    left: 350px;
-    top: 180px;
+    left: 100px;
+    top: 100px;
     display: flex;
 }
 
 .item {
     display: flex;
-    flex-direction: column; /* Organiza as imagens verticalmente */
-    gap: 10px; /* Espaço entre as imagens dentro da coluna */
-    justify-content: center; /* Centraliza o conteúdo na direção vertical */ 
-    align-items: center; /* Centraliza o conteúdo na direção horizontal */
-    text-align: center; /* Alinha o texto das imagens, caso haja texto */
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .item img {
     margin: 30px;
-    width: 300px;
+    width: 350px;
     height: 250px;
     border-radius: 50px 0;
+    max-width: 100%; /* Garante que as imagens não ultrapassem o container */
 }
